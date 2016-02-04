@@ -52,7 +52,7 @@ TARGET="XX"
 if [ -f /proc/stb/info/vumodel ] ; then
 	MODEL=$( cat /proc/stb/info/vumodel )
 	TYPE=VU
-	SHOWNAME="Vu+ ${MODEL} Detected"
+	SHOWNAME=               "Vu+ ${MODEL} Detected "
 	MAINDEST=$DIRECTORY/vuplus/${MODEL}
 	EXTRA=$DIRECTORY/fullbackup_${MODEL}/$DATE/vuplus	
 else
